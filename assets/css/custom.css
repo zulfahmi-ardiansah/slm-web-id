@@ -1,0 +1,336 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+#home {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#marketing-service,
+#reseller-autodesk,
+#reseller-samsung,
+#contact {
+    position: relative;
+    padding-top: 4.25em;
+    padding-bottom: 4.25em;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.raleway-font {
+    font-family: "Raleway";
+}
+
+.cabin-font {
+    font-family: "Cabin";
+}
+
+.color-dot {
+    color: #032CBE;
+    font-size: 1.2em;
+}
+
+.home-title {
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.home-secondary-title {
+    font-size: .55em;
+    font-weight: bold;
+}
+
+.home-feature {
+    font-weight: bold;
+    font-size: 1.25em;
+    width: 80%;
+}
+
+.home-feature-description {
+    margin-bottom: .25em;
+    width: 80%;
+    font-family: "Cabin";
+}
+
+.home-feature-cta {
+    color: #032CBE;
+    font-family: "Cabin";
+}
+
+.home-feature-cta:hover {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1024px;
+}
+
+.home-feature-card {
+    display: inline-block;
+    width: 300px;
+}
+
+.home-feature-logo {
+    min-height: 48px;
+}
+
+.home-feature-logo img {
+    height: 25px;
+}
+
+.section-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.section-title:after {
+    margin-top: 10px;
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #032cbe;
+}
+
+.section-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+p {
+    color: #555;
+    font-size: 1.1em;
+}
+
+#marketing-service:before {
+    content: '';
+    width: 55px;
+    height: 200px;
+    position: absolute;
+    right: 150px;
+    top: 0;
+    background-image: url("../img/dot.svg");
+    opacity: .35;
+    background-size: cover;
+}
+
+#marketing-service:after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    left: 0px;
+    background-image: url("../img/dot.svg");
+    opacity: .45;
+    background-size: 100px;
+}
+
+#contact:before {
+    content: '';
+    width: 55px;
+    height: 200px;
+    position: absolute;
+    right: 150px;
+    top: 0;
+    background-image: url("../img/dot.svg");
+    opacity: .35;
+    background-size: cover;
+}
+
+#contact:after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    left: 0px;
+    background-image: url("../img/dot.svg");
+    opacity: .45;
+    background-size: 100px;
+}
+
+#reseller-autodesk:before {
+    content: '';
+    width: 55px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url("../img/dot.svg");
+    opacity: .65;
+    background-size: cover;
+}
+
+#reseller-autodesk:after {
+    content: '';
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/dot.svg");
+    opacity: .45;
+    background-size: cover;
+}
+
+#reseller-samsung:before {
+    content: '';
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 20%;
+    background-image: url("../img/dot.svg");
+    opacity: .5;
+    background-size: 150px;
+}
+
+#reseller-samsung:after {
+    content: '';
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    right: 100px;
+    bottom: 20%;
+    background-image: url("../img/dot.svg");
+    opacity: .65;
+    background-size: 150px;
+}
+
+.btn-section-cta {
+    font-family: "Cabin";
+    font-weight: bold;
+    color: #333;
+}
+
+.btn-section-cta img {
+    height: 18px;
+    margin-left: 5px;
+    display: inline-block;
+    transform: translateY(-2px);
+}
+
+#gmap_canvas {
+    width: 482px;
+    height: 482px;
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 8px 8px 0px 2px #2c2c2c;
+}
+
+@media (max-width: 1024px) {
+    #home {
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+    }
+
+    #home .row.mb-5 {
+        margin-bottom: 30px !important;
+    }
+
+    .home-title {
+        font-size: 2.25em;
+    }
+
+    .home-secondary-title {
+        line-height: 1.35em;
+    }
+
+    .home-feature-card {
+        margin: auto;
+        margin-bottom: 35px;
+        width: 280px;
+        text-align: center;
+    }
+
+    .home-feature-description {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .home-feature {
+        text-align: center;
+        width: 100%;
+    }
+
+    .home-feature-logo {
+        text-align: center;
+    }
+
+    .home-feature-cta {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .btn-section-cta {
+        display: block;
+        margin: auto;
+    }
+
+    #marketing-service,
+    #reseller-autodesk,
+    #reseller-samsung {
+        margin: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    p {
+        font-size: .95em;
+        text-align: center;
+    }
+
+    .section-title {
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    .section-group {
+        text-align: center;
+    }
+
+    .section-title:after {
+        margin: 15px auto 0px auto;
+    }
+
+    .section-image {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    #reseller-autodesk .row {
+        flex-direction: column-reverse !important;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+    #contact .section-container {
+        margin-bottom: 20px;
+    }
+}
