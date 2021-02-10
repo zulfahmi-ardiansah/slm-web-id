@@ -1,0 +1,121 @@
+@media (max-width: 1024px) {
+
+    /* Common */
+    p,
+    section ul,
+    section ol {
+        font-size: .8em !important;
+    }
+
+    .container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    /* Section */
+    .section-title {
+        text-align: center;
+    }
+
+    /* Marketing */
+    #marketing {
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+    }
+
+    #marketing .row .row {
+        text-align: center;
+    }
+
+    #marketing .row .row img {
+        width: 70px;
+    }
+
+    #marketing .marketing-description-service {
+        width: 400px;
+        max-width: 100%;
+        margin: auto;
+        text-align: center !important;
+    }
+
+    /* Autodesk */
+    #autodesk {
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+    }
+
+    #autodesk .collapse-icon {
+        display: none;
+    }
+
+    #autodesk .autodesk-title-service {
+        text-align: center;
+        line-height: 1.2em;
+    }
+
+    #autodesk .accordion-autodesk .card-header h2 button {
+        white-space: normal;
+        font-size: .45em;
+        line-height: 1.5em;
+        text-align: center !important;
+    }
+
+    /* Footer */
+    footer {
+        padding-bottom: 2em;
+    }
+
+    footer .col-lg-3 {
+        text-align: center;
+    }
+
+    footer .col-lg-3 p:before {
+        display: none;
+    }
+
+    footer .col-lg-3 p {
+        text-align: center;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer .col-lg-9 {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    footer .col-lg-9 a {
+        transform: translateY(-5px);
+    }
+
+    #home {
+        min-height: auto;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+    }
+
+    #home .home-title {
+        font-size: 2.5em;
+    }
+
+    #home .home-title small {
+        line-height: 1.4em;
+    }
+
+    #home .home-feature-card {
+        margin-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 4px;
+        box-shadow: 10px 10px 0px #c6c6c6;
+    }
+
+    #home .home-feature-card:last-child {
+        margin-bottom: 0px;
+    }
+
+    #home .col-12 {
+        margin-bottom: 0px !important;
+    }
+}
